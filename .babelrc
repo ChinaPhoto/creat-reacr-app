@@ -1,0 +1,15 @@
+{
+    "presets": [
+        "react-app"     
+      ],
+      "plugins": [
+        "react-html-attrs",
+        ["import", {
+            "libraryName": "antd",
+            "libraryDirectory": "es",
+            "style": true
+        }]
+      ]
+}
+
+//  antd 配置按需引入的时候 需要给less降低版本 (^2.7.3)
