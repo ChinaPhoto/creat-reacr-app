@@ -31,3 +31,24 @@
   text-align: right;
   font-size: 14px;
 }
+.header .header-bottom .weather .weather-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header .header-bottom .weather .weather-box .data {
+  margin-right: 20px;
+}
+.header .header-bottom .weather .weather-box .weather-scene {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-bottom .weather .weather-box .weather-scene img {
+  width: 20px;
+  height: 20px;
+}
+.header .header-bottom .weather .weather-box .weather-scene .w-weather {
+  margin-left: 10px;
+}
