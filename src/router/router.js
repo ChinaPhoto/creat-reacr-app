@@ -30,15 +30,15 @@ class Root extends Component {
                             return  (
                                     <Admin>
                                         <Switch>
-                                            <Route  path= "/home" component= { Home }></Route>
+                                            <Route path= "/home" component= { Home }></Route>
                                             <Route path= "/ui/buttons" component= { Button }></Route>
                                             <Route path= "/ui/modals" component= { Modal }></Route>
-                                            <Route path="/ui/loadings" component={Loadings} />
-                                            <Route path="/ui/notification" component={Notice} />
-                                            <Route path="/ui/messages" component={Messages} />
-                                            <Route path="/ui/tabs" component={Tabs} />
-                                            <Route path="/ui/gallery" component={Gallery} />
-                                            <Route path="/ui/carousel" component={Carousel} />
+                                            <Route path="/ui/loadings" component={ Loadings } />
+                                            <Route path="/ui/notification" component={ Notice } />
+                                            <Route path="/ui/messages" component={ Messages } />
+                                            <Route path="/ui/tabs" component={ Tabs } />
+                                            <Route path="/ui/gallery" component={ Gallery } />
+                                            <Route path="/ui/carousel" component={ Carousel } />
                                         </Switch>    
                                     </Admin>
                                     )
