@@ -1,3 +1,5 @@
+@import './default.less';
+
 .container{
     display: flex;
     .nav-left{
@@ -7,6 +9,13 @@
     }
     .main{
         flex: 1;
+        height: calc(100vh);
+        background-color: @colorL;
+        overflow: auto;
+       .content {
+        position: relative;
+        padding: 20px;
+       } 
     }
 
 }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Row,Col } from 'antd';
+
+
 import Header from '@/component/Header'
 import Footer from '@/component/Footer'
 import NavLeft from '@/component/NavLeft'
@@ -24,7 +26,9 @@ class Admin extends Component {
                     span= { 21 }
                     className= "main">
                     <Header />
-                    <div>center</div>
+                    <Row className= "content">
+                        { this.props.children }
+                    </Row>    
                     <Footer />
                 </Col>
             </Row> 
